@@ -4,7 +4,7 @@ fun main() {
     println("Введите сумму в копейках:")
     val amount = scan.nextFloat()
     val commission = if (amount * 0.0075 < minSum) {
-        35000
+        minSum
     } else {
         amount * 0.0075
     }
